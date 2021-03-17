@@ -1,0 +1,11 @@
+body {
+    font-family:Arial,Verdana,sans-serif;
+    padding: 20px;
+
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
