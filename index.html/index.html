@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
   </head>
   <body>
-
+   
     <!-- Start Top Bar -->
     <div class="top-bar">
       <div class="top-bar-left">
         <ul class="menu">
         
           <li class="menu-text">USA/SWITZERLAND</li>
-         
+          
         </ul>
       </div>
       <div class="top-bar-right">
@@ -26,9 +26,57 @@
 </nav>  
         </ul>
       </div>
+     
     </div>
+    
     <!-- End Top Bar /images-->
     <style>
+      
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+.rounded-social-buttons .social-button.instagram {
+  background: #F59E7A;
+}
+
+.rounded-social-buttons .social-button.instagram:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #F59E7A;
+  background: #fefefe;
+  border-color:#F59E7A;
+}
    img.image1 {
      display: block;
      margin-right: auto;
@@ -42,24 +90,13 @@ img.image2 {
     width: 90%;
     border-radius: 25px;
   }
-  
-   .container {
-  position: relative;
-  max-width: 800px; /* Maximum width */
-  margin: 0 auto; /* Center it */
-}
+  img.image3 {
+    width: 320px;
+height: 308px;
+  }
 
-.container .content {
-  position: absolute; /* Position the background text */
-  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1; /* Grey text */
-  width: 100%; /* Full width */
-  padding: 20px; /* Some padding */
-}
 .callout {
-   background-color: #F59E7A;
+   background-color: #8a776f;
    color: white;
 }
 .button {
@@ -71,8 +108,29 @@ img.image2 {
 .nav a:hover {
   color: #F59E7A;
 }
+.container {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
 
-
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgb(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color:whitesmoke; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+span.copyright {
+  position :relative;
+  color: black;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
     </style>
      <img src="images/eee_logo.jpg" class="image1"/>
      <img src="images/modelinhat.jpg" class="image2"/> 
@@ -128,43 +186,36 @@ img.image2 {
       </div>
       <div class="column">
          <!-- Place photo here -->
-         <img src="images/valentinored.jpg" class="image2"/> 
-        <h5>Valentino Wallet / Red Leather </h5>
+         <img src="images/valentinored.jpg" class="image3"/> 
+        <h5>Valentino Wallet / Red  </h5>
         <p>$80</p>
         <!-- Attach link to the shop here -->
         <a href="#" class="button">Buy</a>
       </div>
     </div>
-
-    <hr>
-
-    <div class="row">
-      <div class="callout">
-        <h3>Who we are and what we do</h3>
-      </div>
-    </div>
-
-    
-    </div>
-    <div class="container">
-      <img src="/Users/user/Desktop/EEE LUXURY/images/fashion-9.jpg"/>
+  <div class="container">
+     <img src="images/fashion-9.jpg"/>
       <div class="content">
-        <h1>We buy and sell luxury consignment </h1>
-        <p>Clear out your closet, exchange the vintage fashion items for the trendy ones.</p>
-      </div>
-    </div>
-  
+        <h1>We buy and sell luxury consignment</h1>  
+        <p>Clear out your closet, exchange the vintage fashion items for the trendy ones.</p>    
+    </div> 
+    <hr>
+  </div>
+
+  </div> 
+</div>
     
-       <footer>
-
-
-
-       </footer>
+   
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
     <script>
       $(document).foundation();
     </script>
+    <h3>Follow Us On Instagram</h3>
+    <div class="rounded-social-buttons">
+      <a class="social-button instagram" href="https://www.instagram.com/eeeluxuryshop/"></a>
   </body>
+  <footer class="main-footer active-element"><span class="copyright">&copy;2021 Katrina Kulakova</span></footer>
 </html>
+
